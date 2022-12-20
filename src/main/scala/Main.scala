@@ -1,0 +1,30 @@
+object Main {
+  val i = new Complex(0, 1)
+  def main(args: Array[String]): Unit ={
+    val x = new Complex(2, 3)
+    val y = new Complex(4, 5)
+    val z = new Complex(6)
+    println(x)
+    println(y)
+    println(z)
+    println(x + y)
+    println(z + 2)
+    println(2 + z)
+    println(!y)
+    println(2 + i + Complex(1, 2))
+    println(Complex(1, 2) > Complex(3, 4))
+    println(Complex(1, 2) < Complex(3, 4))
+    println(i == Complex(0, 1))
+    println(Complex(1, 2) * Complex(3, 4))
+    println(Complex(1, 2) / Complex(3, 4))
+    println(+x)
+    println(-x)
+    println(z * 2)
+    println(2 * z)
+    println(z / 2)
+    //println(x / Complex(0,0))
+    println(~x)
+    println(i * Complex(4))
+  }
+}
+
